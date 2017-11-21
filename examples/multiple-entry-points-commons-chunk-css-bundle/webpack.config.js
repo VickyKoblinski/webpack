@@ -3,6 +3,7 @@ const LoaderOptionsPlugin = require("webpack").LoaderOptionsPlugin;
 var CommonsChunkPlugin = require("../../lib/optimize/CommonsChunkPlugin");
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports = {
+	mode: "production",
 	entry: {
 		A: "./a",
 		B: "./b",

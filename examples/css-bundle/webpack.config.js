@@ -2,6 +2,7 @@ const LoaderOptionsPlugin = require("webpack").LoaderOptionsPlugin;
 
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports = {
+	mode: "production",
 	module: {
 		rules: [
 			{
